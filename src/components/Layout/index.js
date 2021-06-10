@@ -1,6 +1,6 @@
 import React, {useContext} from 'react';
 //import { useTheme } from 'styled-components';
-import { ThemeContext } from '../../App';
+import { ThemeContext } from '../../context/ThemeContext';
 
 import Header from '../Header';
 import PostsList from '../PostsList';
