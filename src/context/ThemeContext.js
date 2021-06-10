@@ -1,7 +1,6 @@
 import React, { createContext, useState, useMemo } from 'react';
 import { ThemeProvider } from 'styled-components';
 
-
 import themes from '../styles/themes';
 
 export const ThemeContext = createContext('dark');
